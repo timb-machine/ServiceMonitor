@@ -1,0 +1,14 @@
+To install:
+
+1) Check you have the Perl Win32::Services, Net::SMTP and Win32
+   modules installed
+2) Change the various variables within ServiceMonitor.pl as
+   required to point at the services you require monitoring, the
+   path to the state file and optionally mail servers and and
+   admin email addresses (these are lines 44-54)
+3) Use the instsrv and srvany tools to create ServiceMonitor.pl
+   as a service as described at
+   http://www.techeez.com/windows_tips/service_under_nt.htm
+
+The latest version of ServiceMonitor can always be found at
+<http://www.nth-dimension.org.uk/>.
